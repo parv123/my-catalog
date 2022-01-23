@@ -5,13 +5,12 @@
 .car-card {
   box-shadow: 5px 5px 20px gray !important;
   transform: perspective(80px) rotateX(2deg);
-  max-width: 345px;
+  max-width: 325px;
   margin: 20px;
   margin-bottom: 40px;
 }
 .car-media {
   padding: 10px;
-
   background-color: #eea990;
 }
 
@@ -23,20 +22,6 @@ html {
   background-color: #eea990;
 }
 
-.navbar {
-  background-color: #aa6f73;
-  height: 70px;
-  width: 100%;
-  text-align: left;
-  padding-left: 20px;
- 
-}
-.navbar-title {
-  color: ivory;
-  font-size: 40px;
- 
-  text-shadow: 3px 3px 4px #f6e0b5;
-}
 .viewdetails {
   border: none;
   color: #382931;
@@ -46,9 +31,4 @@ html {
   border-radius: 7px;
   height: 40px;
   padding: 10px;
-}
-
-.dialog-media{
-    height: 300px;
-    width: 100%;
 }

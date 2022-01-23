@@ -1,0 +1,26 @@
+.viewdetails {
+  border: none;
+  color: #382931;
+  background-color: #a39193;
+  font-weight: bolder;
+  font-size: medium;
+  border-radius: 7px;
+  height: 40px;
+  padding: 10px;
+}
+
+.dialog-media {
+  height: 300px;
+  width: 100%;
+}
+.dialog-title {
+  background-color: #f6e0b5;
+  color: #aa6f73;
+}
+.dialog-content {
+  background-color: #f6e0b5;
+  color: #382931;
+}
+.dialog-actions {
+  background-color: #f6e0b5;
+}

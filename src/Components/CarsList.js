@@ -32,7 +32,7 @@ function CarsList() {
 
   function RenderList() {
     const carsCards = cars.map((el, index) => (
-      <Grid item data xs={12} sm={6} lg={4} xl={4} key={index}>
+      <Grid item data xs={12} sm={6} lg={4} xl={3} key={index}>
         <Card className="car-card">
           <div className="car-media">
             <CardMedia

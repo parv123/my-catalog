@@ -1,14 +1,14 @@
 import logo from "./logo.svg";
 import "./App.css";
-import cars from "./data/cars";
+import HeaderBar from "./Components/HeaderBar"
+import CarsList from "./Components/CarsList"
 
 function App() {
-  console.log(cars);
+
   return (
     <div className="App">
-      {cars.map((el, index) => {
-        return <img style={{height:'300px',width:'550px'}}key={index} src={el.imagePath}></img>;
-      })}
+      <HeaderBar />
+      <CarsList />
     </div>
   );
 }

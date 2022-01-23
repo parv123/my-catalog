@@ -1,0 +1,52 @@
+.car-card:hover{
+    box-shadow: 10px 10px 50px 10px gray !important;
+    transform: initial;
+   
+    
+}
+.car-card {
+    box-shadow: 5px 5px 20px gray !important;
+    transform: perspective(70px) rotateX(1deg);
+    max-width: 345px;
+    margin:20px
+    
+}
+.car-media {
+    padding:15px;
+ 
+    background-color:  rgba(0, 0, 0, 0.205);
+}
+    
+html{
+    background-color: rgba(203, 206, 248, 0.274);
+}
+.car-des{
+    text-align: left;
+    background-color: rgba(0, 0, 0, 0.205);
+}
+
+.navbar{
+    background-color: rgb(46, 47, 116);
+    height: 60px;
+    width: 100%;
+    text-align: left;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.navbar-title{
+    color:ivory;
+    font-size: 40px;
+    font-family:serif;
+    text-shadow: 3px 3px 2px  gray;
+}
+.viewdetails {
+ border:none;
+ color:rgba(0, 20, 130, 0.808);
+ background-color: rgba(255, 234, 47, 0.158);
+ font-weight: bolder;
+ font-size: medium;
+ border-radius: 7px;
+ height: 40px;
+ padding: 10px;
+
+}

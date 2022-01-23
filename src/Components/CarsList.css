@@ -1,52 +1,54 @@
-.car-card:hover{
-    box-shadow: 10px 10px 50px 10px gray !important;
-    transform: initial;
-   
-    
+.car-card:hover {
+  box-shadow: 10px 10px 50px 10px gray !important;
+  transform: initial;
 }
 .car-card {
-    box-shadow: 5px 5px 20px gray !important;
-    transform: perspective(70px) rotateX(1deg);
-    max-width: 345px;
-    margin:20px
-    
+  box-shadow: 5px 5px 20px gray !important;
+  transform: perspective(80px) rotateX(2deg);
+  max-width: 345px;
+  margin: 20px;
+  margin-bottom: 40px;
 }
 .car-media {
-    padding:15px;
- 
-    background-color:  rgba(0, 0, 0, 0.205);
-}
-    
-html{
-    background-color: rgba(203, 206, 248, 0.274);
-}
-.car-des{
-    text-align: left;
-    background-color: rgba(0, 0, 0, 0.205);
+  padding: 10px;
+
+  background-color: #eea990;
 }
 
-.navbar{
-    background-color: rgb(46, 47, 116);
-    height: 60px;
-    width: 100%;
-    text-align: left;
-    padding-left: 20px;
-    padding-top: 10px;
+html {
+  background-color: #f6e0b5;
 }
-.navbar-title{
-    color:ivory;
-    font-size: 40px;
-    font-family:serif;
-    text-shadow: 3px 3px 2px  gray;
+.car-des {
+  text-align: left;
+  background-color: #eea990;
+}
+
+.navbar {
+  background-color: #aa6f73;
+  height: 70px;
+  width: 100%;
+  text-align: left;
+  padding-left: 20px;
+ 
+}
+.navbar-title {
+  color: ivory;
+  font-size: 40px;
+ 
+  text-shadow: 3px 3px 4px #f6e0b5;
 }
 .viewdetails {
- border:none;
- color:rgba(0, 20, 130, 0.808);
- background-color: rgba(255, 234, 47, 0.158);
- font-weight: bolder;
- font-size: medium;
- border-radius: 7px;
- height: 40px;
- padding: 10px;
+  border: none;
+  color: #382931;
+  background-color: #a39193;
+  font-weight: bolder;
+  font-size: medium;
+  border-radius: 7px;
+  height: 40px;
+  padding: 10px;
+}
 
+.dialog-media{
+    height: 300px;
+    width: 100%;
 }
